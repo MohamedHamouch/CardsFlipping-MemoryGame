@@ -1,0 +1,42 @@
+body{
+    background-color: wheat;
+}
+
+#container {
+    width: 840px;
+    height: 632px;
+    margin: auto;
+    display: grid;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    gap: 2px;
+    grid-template-columns: 200px 200px 200px 200px;
+    background-color: brown;
+}
+#container div {
+    width: 200px;
+    height: 200px;
+    border: 1px white solid;
+}
+.hide {
+    opacity: 0.5;
+}
+
+.red {
+    background-color: red;
+}
+.green {
+    background-color: green;
+}
+.gray {
+    background-color: gray;
+}
+.pink {
+    background-color: pink;
+}
+.yellow{
+    background-color: yellow;
+}
+.blue {
+    background-color: blue;
+}
