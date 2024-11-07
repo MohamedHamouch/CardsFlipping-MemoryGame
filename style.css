@@ -10,16 +10,19 @@ body{
     justify-content: space-evenly;
     align-content: space-evenly;
     gap: 2px;
-    grid-template-columns: 200px 200px 200px 200px;
-    background-color: brown;
+    grid-template-columns: repeat(4,200px);
+    background-color: black;
 }
 #container div {
-    width: 200px;
+    width: 197px;
     height: 200px;
-    border: 1px white solid;
+
+}
+span {
+    border: 2px white solid;
 }
 .hide {
-    opacity: 0.5;
+    opacity: 0;
 }
 
 .red {
